@@ -10,7 +10,7 @@ label_list = ['skin', 'nose', 'eye_g', 'l_eye', 'r_eye', 'l_brow', 'r_brow', 'l_
 
 folder_base = 'CelebAMaskHQ-mask-anno'
 folder_save = 'CelebAMaskHQ-mask'
-img_num = 30000
+img_num = 70000
 
 make_folder(folder_save)
 

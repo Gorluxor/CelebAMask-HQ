@@ -25,7 +25,7 @@ class CelebAMaskHQ():
         for i in range(len([name for name in os.listdir(self.img_path) if os.path.isfile(os.path.join(self.img_path, name))])):
             img_path = os.path.join(self.img_path, str(i)+'.jpg')
             label_path = os.path.join(self.label_path, str(i)+'.png')
-            print (img_path, label_path) 
+            #print (img_path, label_path) 
             if self.mode == True:
                 self.train_dataset.append([img_path, label_path])
             else:
